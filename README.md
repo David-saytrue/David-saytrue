@@ -1,16 +1,15 @@
 ## Hi there 👋
 
-<!--
-**David-saytrue/David-saytrue** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 💡 Student by day,Developer by night.
 
-Here are some ideas to get you started:
+I build everything from Web/Software to GameDev projects.Always learning,always playing. 🚀
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠️ Tech Stack & Tools
+| **Languages** | C/C++,Java-Script,Python,Lua,Gml|
+| **GameDev** | Blender,Unity,Roblox studio,Game-Maker|
+---
+
+- 🔭 **I’m currently working on:** Several personal projects (pet projects)
+- 📫 **How to reach me:** davidsaytrue@gmail.com
