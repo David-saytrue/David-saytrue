@@ -1,10 +1,10 @@
 # Hi, I'm Davit 👋
 
-Junior **Data Engineer** from Tbilisi, Georgia.  
+**Data Engineer** from Tbilisi, Georgia.  
 I build real-time data pipelines, lakehouses, and analytics platforms with open-source tools.
 
 🎓 Bachelor's thesis defended — **Real-Time CDC + Lakehouse Platform**  
-📍 Open to Junior / Intern Data Engineer roles (remote or Tbilisi)
+📍 Open to Data Engineer / Analytics Engineer roles (remote or Tbilisi)
 
 ---
 
@@ -33,7 +33,7 @@ End-to-end **CDC → Lakehouse → BI / ML** platform on AdventureWorks:
 
 ## What I'm looking for
 
-- Junior Data Engineer / Analytics Engineer / Streaming Engineer
+- Data Engineer / Analytics Engineer / Streaming Engineer
 - Real-time pipelines, ETL/ELT, lakehouse, warehouse, BI
 - Eager to learn production practices (CI/CD, monitoring, cloud)
 
@@ -47,4 +47,4 @@ End-to-end **CDC → Lakehouse → BI / ML** platform on AdventureWorks:
 
 ---
 
-⭐ If you're hiring junior data engineers — check the diploma repo above.
+⭐ Hiring for data engineering? Check the diploma repo above.
