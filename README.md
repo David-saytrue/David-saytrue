@@ -25,11 +25,14 @@ End-to-end **CDC → Lakehouse → BI / ML** on AdventureWorks:
 ### [power-bi-sales-dashboard](https://github.com/David-saytrue/power-bi-sales-dashboard)
 One-page **sales report**: Google Sheet via `Web.Contents`, Power Query merges, **DAX** KPIs (revenue, profit, logistics, ABC, map, manager losses).
 
+### [power-bi-wb-finance](https://github.com/David-saytrue/power-bi-wb-finance)
+**Star schema** marketplace finance model: PostgreSQL facts (Import) + sheet dictionaries (M), DAX for revenue, commission, gross profit, ROI, MoM.
+
 ### [leetcode-sql50-](https://github.com/David-saytrue/leetcode-sql50-)
 Daily **interview SQL** — LeetCode study plan, PostgreSQL dialect, versioned solutions.
 
 ### [data-engineer-prep](https://github.com/David-saytrue/data-engineer-prep)
-Course SQL/ETL labs, notes, and **WB finance BI case** (M + DAX scripts; star schema over Postgres facts).
+Course **SQL / ETL** labs and Karpov homework notes.
 
 ---
 
