@@ -31,9 +31,6 @@ One-page **sales report**: Google Sheet via `Web.Contents`, Power Query merges, 
 ### [leetcode-sql50-](https://github.com/David-saytrue/leetcode-sql50-)
 Daily **interview SQL** — LeetCode study plan, PostgreSQL dialect, versioned solutions.
 
-### [data-engineer-prep](https://github.com/David-saytrue/data-engineer-prep)
-Course **SQL / ETL** labs and Karpov homework notes.
-
 ---
 
 ## Tech I work with
