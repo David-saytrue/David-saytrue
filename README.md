@@ -1,67 +1,80 @@
-# Hi, I'm Davit 👋
+# Hi, I'm Davit Chikvaidze
 
-**Data Engineer · BI / Analytics** — Tbilisi, Georgia  
-I design **SQL / ETL flows, lakehouses, and Power BI semantic models** — from flat teaching dashboards to star-schema finance reports.
+**Data Engineering & Business Intelligence | Tbilisi, Georgia**
 
-🎓 Bachelor's thesis — **Real-Time CDC + Lakehouse Platform**  
-📊 **Power BI** — 2 shipped cases: sales dashboard + marketplace finance (star schema, Postgres + sheets)  
-🧩 LeetCode [**SQL 50**](https://github.com/David-saytrue/leetcode-sql50-) — **30 / 50** (PostgreSQL · Easy 22 · Medium 8)  
-📍 Open to **Data Engineer / BI Analyst / Analytics Engineer** (remote or Tbilisi)
+I build data pipelines, SQL warehouses and Power BI reports. My portfolio covers
+Python ingestion, PostgreSQL dimensional modeling, Airflow orchestration and
+financial analytics, alongside an academic CDC and lakehouse project.
 
----
+**Open to Data Engineer and BI / Power BI opportunities, remote or in Tbilisi.**
 
 ## Featured projects
 
-### [data-streaming-diploma](https://github.com/David-saytrue/data-streaming-diploma)
-End-to-end **CDC → Lakehouse → BI / ML** on AdventureWorks:
+### [Retail Analytics Platform](https://github.com/David-saytrue/retail-analytics-platform)
 
-`PostgreSQL → Debezium → Kafka → Flink → Iceberg @ MinIO → Presto / Metabase`  
-(+ Airflow + Python K-Means for batch segmentation)
+An end-to-end portfolio project that turns synthetic sales and returns into
+validated financial marts and a Power BI report.
 
-- Medallion architecture (Bronze + Gold star schema)
-- Measured end-to-end latency **~10–14s** (INSERT → Gold)
-- Fully runnable with Docker Compose
+**Python · PostgreSQL · Apache Airflow · SQL · Power BI · Docker · GitHub Actions**
 
-### [power-bi-wb-finance](https://github.com/David-saytrue/power-bi-wb-finance)
-**Marketplace finance** model (interview Stage 2):
+- Preserve source versions and handle duplicate batches, late updates and corrections.
+- Build a star schema with historical product costs and partial-return accounting.
+- Publish warehouse changes and quality checks in one transaction, with rollback on failure.
+- Schedule daily ingestion with Airflow and check replay, recovery and financial reconciliation in CI.
+- Explore revenue, gross profit, orders and product performance in a packaged PBIX with editable PBIP source.
 
-- Facts from **PostgreSQL** (Import) + dimensions via `Excel.Workbook(Web.Contents(...))`
-- Snowflake: cost & tariffs → nomenclature → facts; `Dim_Date` for MoM
-- DAX: WB revenue, commission, logistics, gross profit, ROI, decline/growth leaders
-- Screenshots: [model](https://github.com/David-saytrue/power-bi-wb-finance/blob/main/docs/model-star-schema.png) · [dashboard](https://github.com/David-saytrue/power-bi-wb-finance/blob/main/docs/dashboard-owner-report.png)
+[![Retail analytics Power BI report](https://raw.githubusercontent.com/David-saytrue/retail-analytics-platform/main/docs/images/retail-overview.png)](https://github.com/David-saytrue/retail-analytics-platform)
 
-### [power-bi-sales-dashboard](https://github.com/David-saytrue/power-bi-sales-dashboard)
-One-page **sales report**: web-sourced workbook, Power Query merges, DAX KPIs (revenue, profit, logistics, ABC, map, manager losses).
+The report uses a verified SQL snapshot of synthetic data. Direct PostgreSQL
+connector refresh remains unverified; automatic Power BI refresh is not configured.
 
-### [leetcode-sql50-](https://github.com/David-saytrue/leetcode-sql50-)
-Daily **interview SQL** — Top SQL 50 study plan, PostgreSQL dialect, versioned solutions (**30 / 50**).
+[Run the demo](https://github.com/David-saytrue/retail-analytics-platform#complete-local-demo-windows--powershell-7)
+· [Validation results](https://github.com/David-saytrue/retail-analytics-platform/blob/main/docs/validation.md)
+· [CI checks](https://github.com/David-saytrue/retail-analytics-platform/actions)
 
----
+### [Real-Time CDC + Lakehouse Platform](https://github.com/David-saytrue/data-streaming-diploma)
 
-## Tech I work with
+Bachelor's thesis project: capture changes in PostgreSQL, process them with
+streaming SQL and expose an Iceberg lakehouse for analytics.
 
-**SQL & modeling:** PostgreSQL · joins / windows / aggregations · dimensional modeling · DBeaver  
-**BI:** Power BI · Power Query (M) · DAX · Import mode · star / snowflake · KPI dashboards  
-**Streaming / lakehouse:** Apache Kafka · Debezium · Apache Flink · Apache Iceberg · MinIO · Presto · Metabase  
-**Orchestration / ML:** Apache Airflow · Python · pandas · scikit-learn  
-**Infra:** Docker · Docker Compose · Git
+**PostgreSQL → Debezium → Kafka → Flink → Iceberg / MinIO → Presto / Metabase**
 
----
+- Bronze CDC tables and a Gold star schema on AdventureWorks data.
+- Docker Compose environment with scripts for a CDC demo and latency experiment.
+- Airflow-orchestrated Python K-Means customer segmentation.
 
-## What I'm looking for
+### [Marketplace Finance Dashboard](https://github.com/David-saytrue/power-bi-wb-finance)
 
-- Data Engineer / BI Analyst / Analytics Engineer / Streaming Engineer
-- ETL/ELT, SQL, semantic models, dashboards, lakehouse / warehouse
-- Ready to grow into production practices (CI/CD, monitoring, cloud)
+Power BI case combining PostgreSQL facts and spreadsheet dimensions to analyze
+marketplace revenue, commissions, logistics, gross profit, ROI and monthly changes.
 
----
+**Power BI · Power Query (M) · DAX · PostgreSQL · Dimensional modeling**
+
+- Star / snowflake semantic model with single-direction relationships.
+- Public M queries, DAX measures, model diagram and report screenshots.
+- The working PBIX and source database are private; public files document how to rebuild the model.
+
+### [Sales Dashboard](https://github.com/David-saytrue/power-bi-sales-dashboard)
+
+A compact Power BI case with a downloadable PBIX, web-sourced data, Power Query
+joins and DAX measures for revenue, profit, average order value and ABC analysis.
+
+## Skills demonstrated in these projects
+
+- **SQL & modeling:** PostgreSQL, joins, CTEs, window functions, aggregations, star / snowflake schemas.
+- **Pipelines & reliability:** Python, ETL, source versioning, idempotent ingestion, data quality checks, transactional publication, Apache Airflow.
+- **Business intelligence:** Power BI, Power Query (M), DAX, semantic models, financial KPIs and report reconciliation.
+- **Streaming & lakehouse:** Kafka, Debezium, Flink SQL, Iceberg, MinIO, Presto and Metabase in my thesis project.
+- **Development tools:** Git, Docker, Docker Compose and GitHub Actions.
+
+## SQL practice
+
+[LeetCode SQL 50 — PostgreSQL solutions](https://github.com/David-saytrue/leetcode-sql50-):
+versioned interview practice covering filtering, joins, aggregations and analytical queries.
+Current progress is tracked in the repository.
 
 ## Contact
 
-- GitHub: [David-saytrue](https://github.com/David-saytrue)
-- Email: davidsaytrue@gmail.com
-- Location: Tbilisi, Georgia
-
----
-
-⭐ **Hiring for data or BI?** Start with the [diploma](https://github.com/David-saytrue/data-streaming-diploma) or [WB finance](https://github.com/David-saytrue/power-bi-wb-finance) — both show end-to-end modeling.
+- **Email:** [davidsaytrue@gmail.com](mailto:davidsaytrue@gmail.com)
+- **GitHub:** [David-saytrue](https://github.com/David-saytrue)
+- **Location:** Tbilisi, Georgia
