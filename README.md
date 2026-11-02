@@ -23,8 +23,6 @@ validated financial marts and a Power BI report.
 - Schedule daily ingestion with Airflow and check replay, recovery and financial reconciliation in CI.
 - Explore revenue, gross profit, orders and product performance in a packaged PBIX with editable PBIP source.
 
-[![Retail analytics Power BI report](https://raw.githubusercontent.com/David-saytrue/retail-analytics-platform/main/docs/images/retail-overview.png)](https://github.com/David-saytrue/retail-analytics-platform)
-
 The report uses a verified SQL snapshot of synthetic data. Direct PostgreSQL
 connector refresh remains unverified; automatic Power BI refresh is not configured.
 
